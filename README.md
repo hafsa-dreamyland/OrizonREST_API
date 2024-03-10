@@ -59,7 +59,8 @@ The API returns results in the form of JSON.
 - **PUT /country/update.php**: Update an existing country.
 - **DELETE /country/delete.php**: Delete a country.
 
-## Example Inputs (the following were used to test the API on Postman)
+## Example Inputs 
+(the following were used to test the API on Postman)
 
 ### Trip Creation Input
 `{
