@@ -39,15 +39,7 @@ The API returns results in the form of JSON.
 1. Open your preferred database management tool (e.g., MySQL Workbench, phpMyAdmin).
 2. Create a new database named `orizon` or any other preferred name.
 3. Run the SQL script `database/schema.sql` in your database management tool to create the necessary tables for the Orizon API project.
-4. After running the script, you should see three tables created: `countries`, `trips`, and `trip_countries`.
-
-## Migrations
-Migrations files can be found in the `database/migrations` directory. These files provide a convenient way to manage changes to your database schema over time. Each migration file represents a set of database changes that should be applied or reverted.
-To use migrations:
-1. Ensure you have configured your database connection in `config/database.php`.
-2. Run the following command to apply all migrations and create the necessary tables:
-   ```bash
-   php database/migrate.php
+4. After running the script, you should see three tables created: `countries`, `trips`, and `trip_countries` (which are the tables considered for the creation of this projects. You can use the provided code as a starting point and then develop your own database personalized API).
 
 
 ## API Endpoints
