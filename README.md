@@ -38,7 +38,8 @@ The API returns results in the form of JSON.
 1. Open your preferred database management tool (e.g., MySQL Workbench, phpMyAdmin).
 2. Create a new database named `orizon` or any other preferred name.
 3. Run the SQL script `database/schema.sql` in your database management tool to create the necessary tables for the Orizon API project.
-4. After running the script, you should see three tables created: `countries`, `trips`, and `trip_countries` (which are the tables considered for the creation of this projects. You can use the provided code as a starting point and then develop your own database personalized API).
+4. After running the script, you should see three tables created: `countries`, `trips`, and `trip_countries` (a JOINT table).
+5. The name tables are the ones considered for the creation of this projects. You can use the provided code as a starting point and then develop your own database personalized API.
 
 
 ## API Endpoints
