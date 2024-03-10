@@ -61,20 +61,18 @@ The API returns results in the form of JSON.
 
 ## Example Inputs 
 (the following were used to test the API on Postman)
-
 ### Trip Creation Input
 `{
     "available_seats": 100,
     "countries": ["Italy", "Korea", "Spain"]
 }`
-
 ### Trip Update Input
 `{
     "id": 1,
     "available_seats": 80
 }`
 - input the correct id that you can find using **GET /country/read.php**: Retrieve all countries.
-###Trip Deletion Input
+### Trip Deletion Input
 `{
     "id": 1
 }`
