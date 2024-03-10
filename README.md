@@ -62,7 +62,7 @@ The API returns results in the form of JSON.
 
 To modify the Orizon API project, follow these steps:
 
-1. Make changes to the relevant files in the `src` directory.
+1. Make changes to the relevant files in the `OrizonREST_API` (root) directory.
 2. Test your changes locally using the development server.
 3. Commit your changes:
 4. Push your changes to the remote repository:
