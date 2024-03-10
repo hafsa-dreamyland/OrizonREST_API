@@ -27,9 +27,8 @@ The API returns results in the form of JSON.
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Install dependencies: `composer install`
-4. Import the database schema:
-   - Create a MySQL database named `orizon`.
-   - Import the SQL file `database.sql` located in the `sql` directory into the `orizon` database.
+4. Create the database schema:
+   - Create a MySQL database named `orizon`. 
 5. Configure the database connection:
    - Open the `config/database.php` file.
    - Update the database credentials according to your MySQL configuration.
