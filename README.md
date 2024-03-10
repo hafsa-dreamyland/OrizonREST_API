@@ -5,7 +5,6 @@
 2. [Features](#features)
 3. [Usage](#usage)
 4. [How to Create the Database and Tables](#how-to-create-the-database-and-tables)
-5. [Migrations](#migrations)
 6. [API Endpoints](#api-endpoints)
 7. [License](#license)
 
