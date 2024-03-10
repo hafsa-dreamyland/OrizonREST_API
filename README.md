@@ -6,7 +6,8 @@
 3. [Usage](#usage)
 4. [How to Create the Database and Tables](#how-to-create-the-database-and-tables)
 6. [API Endpoints](#api-endpoints)
-7. [License](#license)
+7. [Example Inputs](example-inputs)
+8. [License](#license)
 
 
 ## Description
@@ -58,16 +59,23 @@ The API returns results in the form of JSON.
 - **PUT /country/update.php**: Update an existing country.
 - **DELETE /country/delete.php**: Delete a country.
 
-## Example Inputs
+## Example Inputs (the following were used to test the API on Postman)
 
 ### Trip Creation Input
-```json
-{
+`{
     "available_seats": 100,
     "countries": ["Italy", "Korea", "Spain"]
-}
+}`
 
-
+### Trip Update Input
+`{
+    "id": 1,   //input the correct id that you can find using **GET /country/read.php**: Retrieve all countries.
+    "available_seats": 80
+}`
+###Trip Deletion Input
+`{
+    "id": 1
+}`
 
 ## License
 
