@@ -69,9 +69,10 @@ The API returns results in the form of JSON.
 
 ### Trip Update Input
 `{
-    "id": 1,   //input the correct id that you can find using **GET /country/read.php**: Retrieve all countries.
+    "id": 1,
     "available_seats": 80
 }`
+- input the correct id that you can find using **GET /country/read.php**: Retrieve all countries.
 ###Trip Deletion Input
 `{
     "id": 1
