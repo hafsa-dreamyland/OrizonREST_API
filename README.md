@@ -1,6 +1,4 @@
 # Orizon API Project
-
-# Orizon API Project
 1. [Description](#description)
 2. [Features](#features)
 3. [Usage](#usage)
