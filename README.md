@@ -48,24 +48,26 @@ The API returns results in the form of JSON.
 
 - **GET /trip/read.php**: Retrieve all trips.
 - **POST /trip/create.php**: Create a new trip.
-- **POST /trip/update.php**: Update an existing trip.
-- **POST /trip/delete.php**: Delete a trip.
+- **PUT /trip/update.php**: Update an existing trip.
+- **DELETE /trip/delete.php**: Delete a trip.
 
 ### Country Endpoints
 
 - **GET /country/read.php**: Retrieve all countries.
 - **POST /country/create.php**: Create a new country.
-- **POST /country/update.php**: Update an existing country.
-- **POST /country/delete.php**: Delete a country.
+- **PUT /country/update.php**: Update an existing country.
+- **DELETE /country/delete.php**: Delete a country.
 
-## Modifying the Project
+## Example Inputs
 
-To modify the Orizon API project, follow these steps:
+### Trip Creation Input
+```json
+{
+    "available_seats": 100,
+    "countries": ["Italy", "Korea", "Spain"]
+}
 
-1. Make changes to the relevant files in the `OrizonREST_API` (root) directory.
-2. Test your changes locally using the development server.
-3. Commit your changes:
-4. Push your changes to the remote repository:
+
 
 ## License
 
