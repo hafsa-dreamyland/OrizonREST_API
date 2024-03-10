@@ -71,7 +71,8 @@ The API returns results in the form of JSON.
 ### Trip Deletion Input
 `{
     "id": 1
-}`
+}` 
+
 Inputs for CRUD operations available for the countries table are similarly very easy and simple to apply.
 
 ## License
