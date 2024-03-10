@@ -23,15 +23,13 @@ The API returns results in the form of JSON.
 ## Usage
 
 1. Clone the repository.
-2. Navigate to the project directory.
-3. Install dependencies: `composer install`
-4. Create the database schema:
-   - Create a MySQL database named `orizon`. 
-5. Configure the database connection:
+2. Create the database schema:
+   - Create a MySQL database named `orizon`.
+3. Configure the database connection:
    - Open the `config/database.php` file.
    - Update the database credentials according to your MySQL configuration.
-6. Start the development server (es. start Apache and MySQL on XAMPP)
-7. You can now access the API endpoints using Postman or any other HTTP client.
+4. Start the development server (es. start Apache and MySQL on XAMPP)
+5. You can now access the API endpoints using Postman or any other HTTP client.
 
 ## How to Create the Database and Tables
 1. Open your preferred database management tool (e.g., MySQL Workbench, phpMyAdmin).
