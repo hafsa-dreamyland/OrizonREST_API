@@ -6,7 +6,7 @@
 3. [Usage](#usage)
 4. [How to Create the Database and Tables](#how-to-create-the-database-and-tables)
 6. [API Endpoints](#api-endpoints)
-7. [Example Inputs](example-inputs)
+7. [Example Inputs](#example-inputs)
 8. [License](#license)
 
 
