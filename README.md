@@ -11,7 +11,7 @@
 ## Description
 
 The Orizon API project is a RESTful API designed to manage travel trips and associated countries. It provides CRUD (Create, Read, Update, Delete) operations for trips and countries, allowing users to create, retrieve, update, and delete trip records, as well as manage the countries involved in each trip.
-The API returns results in the form of JSON.
+The API returns the results in the form of JSON.
 
 ## Features
 
